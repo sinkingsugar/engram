@@ -1,0 +1,10 @@
+# Build artifacts
+/target
+/target.nosync
+
+# Local cargo config (e.g. a target-dir redirect)
+/.cargo/config.toml
+
+# macOS
+.DS_Store
+*.swp

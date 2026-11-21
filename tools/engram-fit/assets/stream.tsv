@@ -1,0 +1,132 @@
+# Lifecycle evaluation stream: six simulated weeks of a fictional
+# person's messages (synthetic: the people, places and events are invented).
+# Lines: m<TAB>text                        — a message (observed, doc role)
+#        q<TAB>text<TAB>expected           — a query (query role); expected is
+#                                            pipe-separated substrings resolving
+#                                            to answer messages, or `-` for
+#                                            "nothing relevant stored: SILENCE"
+#        s                                  — a sleep (weekly consolidation)
+# Design: recurring facts get restated across weeks (dedup/strengthen targets),
+# one-off trivia should fade, two critical facts are stated exactly ONCE and
+# queried weeks later, silence queries probe never-discussed topics.
+#
+# ---- week 1 ----
+m	Finally got the aeroponics rack assembled in the spare room.
+m	The misting runs every fifteen minutes, day and night.
+m	Reservoir holds about twenty liters, should last a week.
+m	The loft is twenty-four hundred a month, utilities excluded.
+m	Movers quoted us for the Houston to Lisbon shipment today.
+m	Started sorting which synths to sell before the move.
+m	Deploys go out Friday mornings, right after standup.
+m	The staging cluster is still on the old runtime version.
+m	Weather has been brutal, thirty-four degrees and humid.
+m	Tried the new ramen place near the office, overrated.
+m	My knee felt fine on today's five kilometer run.
+m	Booked the dentist for the twenty-third.
+m	The landlord wants two months deposit on the loft.
+m	Lettuce seedlings went into the rack today, twelve plugs.
+m	The payment service threw five hundred errors again at peak.
+m	Rotated the API keys after the contractor rolled off.
+m	The community orchard by the river needs its pear trees pruned this autumn.
+m	Watched a documentary about deep sea vents, incredible stuff.
+m	The building has a shared rooftop but our terrace is private.
+m	Sold the old drum machine to a collector in Seoul.
+s
+# ---- week 2 ----
+m	Our friend Dana named her new puppy Biscotto.
+m	The fogger cycles on a quarter-hour interval, seems stable now.
+m	The misting nozzles are the blue ceramic NebulaJet ones.
+m	Swapped the reservoir pump for the quieter model.
+m	Basil cuttings rooted in six days in the aeroponics rack.
+m	The loft lease draft arrived, checking the clauses tonight.
+m	The building manager says register our bikes for the cellar storage before September.
+m	Standup moved to nine thirty so the Friday deploys breathe more.
+m	Fixed the retry storm in the payment service, it was the backoff jitter.
+m	The office espresso machine died and morale died with it.
+m	Ran eight kilometers along the river, knee held up.
+m	The neighbor's cat keeps sleeping on our doormat.
+m	Shipping container slot confirmed for the second week of August.
+m	Il vicino vuole la ricetta della caponata scritta a mano.
+m	Picked up a used Prophet synth in mint condition, couldn't resist.
+m	The dentist filled a small cavity, no drama.
+m	Roadmap review pushed the search feature to next quarter.
+m	夏祭りの花火は川沿いで見るのが一番きれいだった。
+m	Humidity sensor in the rack reads five percent too high, calibrated it.
+m	The rooftop terrace gets full sun until about four in the afternoon.
+s
+# ---- week 3 ----
+m	Landlord agreed to twenty-two hundred a month if we sign for four years.
+m	Lettuce heads are the size of my fist already, aeroponics is absurd.
+m	The staging cluster finally moved to the new runtime.
+m	Killed my old Twitter account, feels great.
+m	Marathon training plan starts Monday, sixteen weeks out.
+m	The Prophet needs new key contacts, ordered a repair kit.
+q	When does the misting run?	misting runs every fifteen|quarter-hour interval
+m	Mixed a fresh batch of nutrient solution, EC at one point six.
+m	The payment service has been quiet all week, knock on wood.
+q	What did the mechanic say about the brake pads?	-
+m	Il notaio può vederci giovedì per la firma del contratto.
+m	Deploy went out clean this Friday, zero rollbacks.
+m	Sold two more synths, keeping the Prophet and the modular.
+m	Tomatoes might be too heavy for the rack, sticking to greens.
+m	Booked flights to Lisbon for the final apartment inspection.
+m	The caponata recipe is officially transcribed, all four hours of it.
+m	My resting heart rate dropped four beats since the training block.
+m	The new hire shipped her first fix on day two, great sign.
+s
+# ---- week 4 ----
+m	The misting pump still fires every fifteen minutes like clockwork.
+m	Loft inspection done, the terrace drain needs fixing before winter.
+m	The container ships next Tuesday, everything is boxed.
+m	Spinach bolted in the heat, pulled it and reseeded.
+q	Quanto paghiamo di affitto al mese adesso?	twenty-two hundred a month
+m	Fifteen kilometer long run done, legs are toast.
+m	The modular case needs a new power supply before the move.
+m	Friday's deploy included the payment service hardening work.
+m	朝の五時に起きて走ると涼しくて気持ちいい。
+m	The notary signing went smoothly, keys in September.
+q	What brand are the misting nozzles?	NebulaJet
+m	Nutrient reservoir now lasts nine days with the cooler weather.
+m	Office is switching badge systems next month, they say.
+m	Sent the bike storage form to the building manager.
+m	The kale in the rack is outgrowing the lettuce two to one.
+m	Madeira in October for the levada hiking week, flights booked.
+s
+# ---- week 5 ----
+m	Deploys go out Friday mornings, that cadence is now team law.
+m	Half marathon pace run felt easy, training is working.
+m	The container cleared customs in Sines already.
+m	Replaced the rack's humidity sensor, the old one drifted again.
+m	The loft keys handover is set for the ninth of September.
+q	Did we ever book the ferry crossing to the Azores?	-
+m	New nutrient mix trial: kale loves it, basil hates it.
+m	The payment service passed the quarterly audit clean.
+m	Prophet repair kit arrived, keys feel brand new.
+m	Farewell dinner with the Houston crew got scheduled.
+q	How long does the reservoir last now?	lasts nine days
+m	Twenty two kilometer run, longest ever, knee perfect.
+m	The kale harvest filled two salad bowls, gave one to the neighbor.
+m	Lease says the terrace awning needs building approval, checking.
+m	Wrapped the synths in three layers of foam, movers approved.
+s
+# ---- week 6 ----
+m	Landed in Lisbon, the loft echoes without furniture.
+m	The container arrives Thursday between eight and noon.
+m	Set up a temporary desk on the terrace, working in the sun.
+q	What's the name of Dana's puppy?	Biscotto
+m	The espresso bar downstairs knows my order after two days.
+q	When do deploys go out?	Deploys go out Friday
+m	First run along the Tejo, flat and fast.
+q	What's the wifi password at the coworking space?	-
+m	The rack survived shipping, only one cracked fitting.
+q	Come si chiama il cucciolo di Dana?	Biscotto
+m	Neighbors invited us for aperitivo on the rooftop.
+q	What did we decide about tomatoes in the rack?	too heavy for the rack
+m	Lisbon feels like the right call, finally.
+s
+# ---- three quiet weeks (no messages): the forgetting horizon becomes
+# visible — unreinforced trivia decays past the prune floor while
+# strengthened/used memories survive.
+s
+s
+s

@@ -1,0 +1,201 @@
+# engram-fit default sentence pack.
+# Purpose: estimate the MODEL-LEVEL mean of the embedding space (the
+# anisotropic cone), so diversity across domains/registers/languages matters
+# more than size. One sentence per line; lines starting with # are ignored.
+# For a serious artifact, prefer a larger pack via --pack (a few thousand
+# diverse sentences); this bundled one is a sane default.
+The train to the airport leaves every twenty minutes from platform four.
+She whisked the eggs until the mixture turned pale and doubled in volume.
+Quarterly revenue rose eight percent, driven mostly by subscription renewals.
+The goalkeeper tipped the shot over the bar in the final minute.
+My laptop keeps disconnecting from the wifi whenever the microwave runs.
+Photosynthesis converts carbon dioxide and water into glucose and oxygen.
+Could you send me the slides from yesterday's design review?
+The landlord finally agreed to fix the leaking radiator in the hallway.
+A gentle rain fell over the harbor as the fishing boats returned.
+Compile times dropped dramatically after we split the crate into a workspace.
+Grandma's recipe calls for a pinch of nutmeg and a lot of patience.
+The senate vote on the infrastructure bill was postponed until Thursday.
+He practices the piano for an hour before school every morning.
+Our flight was delayed three hours because of a crew scheduling issue.
+The museum's new wing houses an impressive collection of Etruscan bronzes.
+Interest rates are expected to stay flat through the end of the year.
+The cat knocked the succulent off the windowsill again.
+Tighten the drain plug to twenty-five newton meters, no more.
+The documentary follows three beekeepers through a difficult summer.
+I can't reproduce the bug unless the cache is cold and the queue is full.
+Salt the pasta water generously; it should taste like the sea.
+The marathon route climbs four hundred meters in the last ten kilometers.
+Her thesis argues that medieval trade routes shaped modern dialect boundaries.
+Please water the plants while I'm away next week.
+The battery drains twice as fast when the screen brightness is maxed.
+Cumulus clouds usually mean fair weather, but watch for vertical growth.
+The startup pivoted from food delivery to logistics software in a year.
+He sanded the tabletop by hand before applying two coats of oil.
+The orchestra tuned to the oboe's A and the hall fell silent.
+Whales communicate across vast distances using low-frequency calls.
+Remember to rotate the API keys before the contractor's access expires.
+The bakery on the corner sells out of cardamom buns by nine.
+Volcanic soil makes the vineyards on the island unusually productive.
+My knee has been bothering me since the hike last weekend.
+The library extended its hours during exam season.
+Push the changes to a branch and open a pull request against main.
+The recipe says to rest the dough overnight in the refrigerator.
+Traffic on the ring road is worse than usual because of the concert.
+The committee approved the budget with two abstentions.
+Sea turtles return to the beach where they hatched to lay their own eggs.
+Can you double-check the invoice number before we send the payment?
+The new firmware fixes the thermostat's scheduling glitch.
+She negotiated a better rate by bundling the insurance policies.
+The children built a fort out of couch cushions and blankets.
+Lightning struck the old oak on the hill twice last summer.
+The deployment failed because the migration ran out of order.
+Add the garlic only after the onions have turned translucent.
+His serve topped two hundred kilometers per hour in the second set.
+The gallery opening was postponed due to a shipping delay.
+Encrypt the backups and store the key in a separate vault.
+The toddler refuses to eat anything that isn't shaped like a dinosaur.
+Coral reefs bleach when water temperatures stay high for too long.
+We should benchmark the parser before optimizing the tokenizer.
+The night market smells of grilled squid and burnt sugar.
+Her flight lands at six, so dinner at eight should be safe.
+The union and management reached a tentative agreement overnight.
+Fold the laundry while the rice cooker does its thing.
+The comet won't be visible again for another seventy years.
+Update the dependency and pin it to the exact patch version.
+The physiotherapist recommended ice, rest, and gentle stretching.
+Housing prices in the suburbs have finally started to cool.
+The choir rehearses in the crypt because the acoustics are better.
+A single bee visits up to five thousand flowers in a day.
+Check whether the container has enough memory before blaming the code.
+The ferry crossing takes forty minutes in good weather.
+He collects vintage synthesizers and refuses to sell any of them.
+The court ruled the evidence inadmissible on procedural grounds.
+Simmer the stock for at least four hours, skimming occasionally.
+The rover drilled its first sample from the crater's clay layer.
+My headphones died halfway through the flight, of course.
+The florist ran out of peonies, so we went with ranunculus.
+Load testing revealed a race condition in the session store.
+The lighthouse keeper's journal spans forty years of storms.
+Their defense collapsed in the third quarter after two quick turnovers.
+The pediatrician said the fever should break within a day or two.
+Archive the old logs to cold storage after ninety days.
+The tailor said the jacket needs the sleeves taken up a centimeter.
+Wind farms off the coast now power a third of the region.
+I keep a spare charger in every bag because I've learned my lesson.
+The professor's office hours moved to Wednesday afternoons.
+Brown the butter first; it changes the whole cookie.
+The exhibit pairs Renaissance drawings with contemporary sculpture.
+Our landlord is selling the building, so we're apartment hunting again.
+The algorithm favors recency, which buries older but better answers.
+She kayaked the entire coastline over two summers.
+The pharmacist flagged an interaction between the two prescriptions.
+Rebase your branch before merging to keep the history linear.
+The vineyard's late harvest produced an unusually sweet vintage.
+Thunder rolled across the valley long after the flash.
+The co-op splits the electricity bill by square footage.
+His chess rating jumped after he stopped playing blitz.
+The daycare closes early on the first Friday of every month.
+Cache invalidation caused the stale prices on the checkout page.
+The seamstress embroidered initials on each of the napkins.
+Migrating birds use the stars and the earth's magnetic field to navigate.
+The quarterly report understates churn by counting paused accounts as active.
+Let the steak rest for five minutes before slicing against the grain.
+The city replaced the parking lot with a pocket park and bike lanes.
+Her violin was made in Cremona in the eighteenth century.
+The sprinklers run at dawn to minimize evaporation.
+Two-factor authentication is mandatory for all admin accounts now.
+The trail was muddy past the ridge, so we turned back early.
+The printer jams whenever anyone tries to print labels.
+Cut the tiles with a wet saw to keep the edges clean.
+The aquarium's octopus learned to open jars for treats.
+Refinancing saved them two hundred a month on the mortgage.
+The drummer counts off half a beat faster live than in the studio.
+Frost warnings tonight for low-lying areas inland.
+The intern's script accidentally truncated the staging database.
+Knead the dough until it passes the windowpane test.
+The council approved bike lanes on the avenue despite objections.
+Sourdough starter needs feeding twice a day in warm weather.
+The satellite lost contact during the solar storm but recovered.
+His allergy to shellfish rules out half the tasting menu.
+Set the thermostat to eco mode when nobody's home.
+The novel's second act drags, but the ending lands hard.
+Overfishing collapsed the cod stocks a generation ago.
+Use a stable sort here or the pagination will flicker.
+The barista remembers everyone's order but nobody's name.
+The bridge inspection closed one lane in each direction.
+Their toddler said her first full sentence at the dinner table.
+Mulch the beds before the first hard freeze.
+The auction house authenticated the painting after months of testing.
+Latency spiked because the load balancer kept one zone hot.
+The climbing gym replaced half the routes over the weekend.
+Steep the tea for exactly three minutes or it turns bitter.
+The ambassador's remarks were walked back by the ministry within hours.
+A power nap of twenty minutes beats an hour of groggy sleep.
+The spreadsheet formula breaks when the sheet name has a space.
+The kittens were adopted together by the couple downstairs.
+Solar panels on the barn roof cover the farm's entire usage.
+The editor cut a third of the manuscript and it reads better.
+Half the team is out with the flu, so the release slips a week.
+The tide pools at low tide are full of anemones and hermit crabs.
+Warm up the engine before towing anything heavy.
+The bookstore hosts a poetry reading on the last Thursday monthly.
+Their savings rate doubled once they automated the transfers.
+The glacier has retreated a kilometer since the first survey.
+Mock the network layer so the tests stop being flaky.
+The wedding cake was three tiers of lemon and elderflower.
+The night shift nurse caught the dosage error before it reached the patient.
+Prune the roses in late winter before the buds break.
+The podcast episode on container shipping was surprisingly gripping.
+Static builds up on the slide in dry winter air.
+The referendum passed with sixty-two percent turnout.
+Label the breaker box while the electrician is still here.
+The sculptor works only with driftwood collected after storms.
+Compress the images before uploading or the page will crawl.
+The farmers market moves indoors for the winter season.
+His grandfather's watch still keeps perfect time.
+The moon rose orange over the smoke from the distant fires.
+Il treno per Milano parte dal binario nove alle otto e un quarto.
+La nonna prepara il ragù la domenica mattina, senza fretta.
+Non trovo più le chiavi di casa, le hai viste tu?
+Il tramonto sulle colline toscane era di un rosso incredibile.
+L'affitto in centro è aumentato di nuovo quest'anno.
+Domani sciopero dei mezzi, meglio partire prima del solito.
+La squadra ha vinto il derby con un gol al novantesimo.
+Aggiungi il parmigiano solo dopo aver spento il fuoco.
+Il medico mi ha consigliato di camminare mezz'ora al giorno.
+Alla riunione di condominio si è discusso del tetto per due ore.
+Il mare era troppo mosso per uscire in barca.
+Ho dimenticato di nuovo il caricabatterie in ufficio.
+La mostra su Caravaggio è prorogata fino a marzo.
+Questo vino sa di tappo, chiamiamo il cameriere.
+I nipoti arrivano sabato e restano tutta la settimana.
+Il commercialista dice che possiamo detrarre le spese del corso.
+La pasta va scolata due minuti prima e ripassata in padella.
+C'è uno strano rumore quando freno a bassa velocità.
+L'attico all'ultimo piano ha una vista su tutto il parco.
+Piove da tre giorni e il fiume è quasi al limite.
+Il concerto è stato rinviato per motivi di salute del tenore.
+Mia sorella si trasferisce a Torino per il nuovo lavoro.
+朝の電車はいつもより混んでいて、席が全く空いていなかった。
+味噌汁には豆腐とわかめを入れるのが我が家の定番です。
+来週の会議は水曜日の午後三時に変更になりました。
+桜の花が満開になると、公園は花見客でいっぱいになる。
+新しいスマートフォンのバッテリーは二日間持ちます。
+猫が キーボードの上で寝てしまって仕事ができない。
+台風の影響で明日の便は欠航になるかもしれません。
+このラーメン屋は昼時になると行列ができる人気店だ。
+息子は最近、電車の名前を全部覚えてしまった。
+温泉に入った後のビールは格別においしい。
+プロジェクトの締め切りが一週間延びて少し安心した。
+冬になると北海道では雪祭りが開催されます。
+彼女はピアノのコンクールで二位に入賞した。
+庭のトマトが今年はたくさん実をつけた。
+図書館で借りた本を返すのを忘れていた。
+円安の影響で輸入品の価格が上がっている。
+このアプリは日本語と英語の両方に対応しています。
+祖父は毎朝五時に起きて畑の世話をしている。
+新幹線から見える富士山は本当に美しかった。
+会社の近くに新しいカフェがオープンした。
+夏祭りの花火大会は川沿いで行われる予定です。
+漢字の書き取りは何度練習しても難しい。

@@ -1,0 +1,66 @@
+# Calibration pairs: label<TAB>text a<TAB>text b
+# dup       = same meaning restated (paraphrase; includes cross-lingual)
+# related   = same topic, different content (should Link, not Strengthen)
+# unrelated = nothing in common
+# Seed set for engram-fit calibrate; replace/extend with real app traffic
+# (e.g. actual edge talk messages) for production-grade bands.
+dup	The misting system runs every fifteen minutes.	The fogger cycles on a quarter-hour interval.
+dup	The meeting moved to three in the afternoon.	They rescheduled the meeting to 3pm.
+dup	My flight got delayed by two hours.	The plane will take off two hours late.
+dup	She fixed the bug in the payment code.	The payment code defect was resolved by her.
+dup	It's going to rain all weekend.	Rain is forecast for the entire weekend.
+dup	The cat is asleep on the sofa.	Our cat is napping on the couch.
+dup	Dinner is at eight at the usual place.	We eat at 8 o'clock, same restaurant as always.
+dup	The rent went up again this year.	They raised the rent once more this year.
+dup	He runs five kilometers every morning.	Every morning he goes for a 5k run.
+dup	The library closes early on Fridays.	On Fridays the library shuts ahead of schedule.
+dup	The train to Milan leaves at eight fifteen.	Il treno per Milano parte alle otto e un quarto.
+dup	Grandma makes the sauce on Sunday mornings.	La nonna prepara il sugo la domenica mattina.
+dup	I lost my house keys again.	Ho perso di nuovo le chiavi di casa.
+dup	The morning train was completely packed.	朝の電車は満員でぎゅうぎゅうだった。
+dup	The cherry blossoms are in full bloom in the park.	公園の桜が満開です。
+dup	The typhoon may cancel tomorrow's flights.	台風で明日の便は欠航になるかもしれない。
+dup	Salt the pasta water generously.	Metti abbondante sale nell'acqua della pasta.
+dup	The new phone's battery lasts two days.	新しいスマホのバッテリーは二日間持つ。
+dup	The deadline was extended by a week.	They pushed the due date back seven days.
+dup	Turn off the thermostat when nobody is home.	Set the heating to off whenever the house is empty.
+related	The misting system runs every fifteen minutes.	The grow lights switch off at midnight.
+related	The meeting moved to three in the afternoon.	The agenda for the meeting still isn't final.
+related	My flight got delayed by two hours.	Security lines at the airport were brutal today.
+related	She fixed the bug in the payment code.	The checkout page still shows stale prices sometimes.
+related	It's going to rain all weekend.	The river is already close to flood stage.
+related	The cat is asleep on the sofa.	We need to buy more cat litter.
+related	Dinner is at eight at the usual place.	The restaurant added a new tasting menu.
+related	The rent went up again this year.	We're thinking about buying instead of renting.
+related	He runs five kilometers every morning.	His knee has been sore since the marathon.
+related	The library closes early on Fridays.	The library's new wing opens next month.
+related	The train to Milan leaves at eight fifteen.	There's a rail strike planned for Thursday.
+related	Grandma makes the sauce on Sunday mornings.	Her ragù recipe takes four hours to simmer.
+related	The typhoon may cancel tomorrow's flights.	The ferry service was suspended this morning.
+related	The new phone's battery lasts two days.	The charger only works with the old cable.
+related	The deadline was extended by a week.	Half the team is out sick this sprint.
+related	The cherry blossoms are in full bloom in the park.	The park gets crowded with picnickers in spring.
+related	Salt the pasta water generously.	Fresh pasta cooks in under three minutes.
+related	Turn off the thermostat when nobody is home.	The heating bill doubled in January.
+related	The rover drilled a sample from the crater.	The satellite lost contact during the solar storm.
+related	Interest rates stayed flat this quarter.	Housing prices in the suburbs started to cool.
+unrelated	The misting system runs every fifteen minutes.	The goalkeeper saved a penalty in extra time.
+unrelated	The meeting moved to three in the afternoon.	Coral reefs bleach in warm water.
+unrelated	My flight got delayed by two hours.	Knead the dough until it passes the windowpane test.
+unrelated	She fixed the bug in the payment code.	The vineyard's late harvest was unusually sweet.
+unrelated	It's going to rain all weekend.	His chess rating jumped after he stopped playing blitz.
+unrelated	The cat is asleep on the sofa.	Quarterly revenue rose eight percent on renewals.
+unrelated	Dinner is at eight at the usual place.	The glacier has retreated a kilometer since the survey.
+unrelated	The rent went up again this year.	Whales sing across entire ocean basins.
+unrelated	He runs five kilometers every morning.	The auction house authenticated the painting.
+unrelated	The library closes early on Fridays.	Tighten the drain plug to twenty-five newton meters.
+unrelated	The train to Milan leaves at eight fifteen.	The sourdough starter needs feeding twice a day.
+unrelated	Grandma makes the sauce on Sunday mornings.	Two-factor authentication is mandatory for admins.
+unrelated	The typhoon may cancel tomorrow's flights.	The violin was made in Cremona centuries ago.
+unrelated	The new phone's battery lasts two days.	The choir rehearses in the crypt for the acoustics.
+unrelated	The deadline was extended by a week.	Sea turtles nest on the beach where they hatched.
+unrelated	The cherry blossoms are in full bloom in the park.	Cache invalidation broke the checkout page.
+unrelated	Salt the pasta water generously.	The referendum passed with high turnout.
+unrelated	Turn off the thermostat when nobody is home.	The drummer counts off faster live than in studio.
+unrelated	温泉に入った後のビールは最高だ。	The spreadsheet formula breaks on sheet names with spaces.
+unrelated	Il mare era troppo mosso per uscire in barca.	The intern's script truncated the staging database.
