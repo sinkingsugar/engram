@@ -1,5 +1,11 @@
 # engram
 
+[![crates.io](https://img.shields.io/crates/v/engram-gate.svg)](https://crates.io/crates/engram-gate)
+[![docs.rs](https://docs.rs/engram-gate/badge.svg)](https://docs.rs/engram-gate)
+
+> **Crate name:** published on crates.io as **`engram-gate`**; the library is
+> imported as **`engram`** (`use engram::…`).
+
 **The hippocampus your vector store is missing.** A small, fast Rust crate that
 decides *what's worth remembering*, retrieves *by association*, and *forgets on
 purpose* — the memory-gating organ that Retrieval-Augmented Generation skips.
@@ -13,7 +19,7 @@ recalled right now?*, and *what can be forgotten?* No LLM calls, no GPU, no
 background threads: tens of microseconds of plain arithmetic per observation
 (a ~30 ns novelty check behind a ~20 µs sparsify), `no_std`-friendly, with
 snapshot/restore. A companion tool,
-[`engram-fit`](tools/engram-fit/README.md), fits it to a real embedding model.
+[`engram-fit`](https://github.com/sinkingsugar/engram/blob/main/tools/engram-fit/README.md), fits it to a real embedding model.
 
 Status: early, but measured end to end against real models (see
 [Status](#status)). The API may still change.
@@ -236,14 +242,25 @@ hippocampal graph path only — cortex/vector-store fusion is pending.
 `engram-fit` runs a six-week lifecycle evaluation on real embeddings from two
 models (multilingual-E5-small and EmbeddingGemma-300m) against a cosine-RAG
 baseline: same answer rate, and silence on never-discussed topics where RAG
-always injects something. Not yet published to crates.io.
+always injects something.
 
-Add it as a git dependency for now:
+## Install
+
+The package is **`engram-gate`** on crates.io (`engram` was taken); its library
+is named `engram`, so code writes `use engram::…`:
 
 ```toml
 [dependencies]
-engram = { git = "https://github.com/sinkingsugar/engram" }
+engram-gate = "0.1"
 ```
+
+```rust
+use engram::{Engram, InMemoryStore};
+```
+
+To have the dependency key read `engram` as well, rename it:
+`engram = { package = "engram-gate", version = "0.1" }`. Minimum supported Rust
+version: 1.88.
 
 `no_std` builds (`--no-default-features`) are supported as a bonus target — the
 hot path is fixed-size bit arrays and flat count arrays with no allocation on the

@@ -2,11 +2,31 @@
 members = ["tools/engram-fit"]
 
 [package]
-name = "engram"
+name = "engram-gate"
 version = "0.1.0"
 edition = "2021"
+rust-version = "1.88"
 description = "A low-power, self-consolidating memory gate: the hippocampus in front of your vector store."
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/sinkingsugar/engram"
+homepage = "https://github.com/sinkingsugar/engram"
+documentation = "https://docs.rs/engram-gate"
+readme = "README.md"
+keywords = ["memory", "novelty", "sparse", "rag", "embeddings"]
+categories = ["algorithms", "data-structures", "no-std"]
+include = [
+    "/src/**",
+    "/tests/**",
+    "/benches/**",
+    "/README.md",
+    "/CLAUDE.md",
+    "/LICENSE-MIT",
+    "/LICENSE-APACHE",
+    "/Cargo.toml",
+]
+
+[lib]
+name = "engram"
 
 [features]
 default = ["std"]
